@@ -6,7 +6,7 @@ import Avatar from '../Avatar.jpeg'
 class ContactMe extends Component {
   render() {
     return (
-      <section id="contact" style={{ color: '#fff',opacity:'1.4', background: 'url(../images/projects_bg.jpg) no-repeat center / cover' }}>
+      <section id="contact">
           <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
@@ -21,11 +21,11 @@ class ContactMe extends Component {
              <em style={{marginLeft: '245px'}}> Can I try it on you? Ping me On !” </em>
           </Cell>
           <Cell col={6}>
-            <h2 style={{ color: 'white',marginLeft:'250px'}}>Contact Me</h2>
+            <h2 style={{ color: 'white',marginLeft:'200px'}}>Contact Me</h2>
             <hr/>
 
             <div className="contact-list">
-              <List style={{marginLeft:'220px'}}>
+              <List style={{marginLeft:'170px'}}>
                 <ListItem>
                   <ListItemContent style={{color:'white',fontSize: '28px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>

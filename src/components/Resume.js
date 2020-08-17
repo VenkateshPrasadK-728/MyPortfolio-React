@@ -6,7 +6,7 @@ class Resume extends Component {
   render() {
     let Data = this.props.Data;
     return (
-      <section id="resume" style={{ color: '#fff', opacity: '1.4', background: 'url(../images/projects_bg.jpg) no-repeat center / cover' }}>
+      <section id="resume">
         <div className="row education">
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
@@ -21,7 +21,7 @@ class Resume extends Component {
                       <p className="info">
                         <em style={{ fontSize: '20px' }}>{item.specialization}</em>
                         <span></span> <em className="date">{item.YearOfJoining} {item.YearOfPassing}</em></p>
-                      <p>
+                      <p className="info">
                         <em style={{ fontSize: '16px' }}>{item.Achievements}</em>
                       </p>
                     </div>
@@ -46,7 +46,7 @@ class Resume extends Component {
                       <p className="info">
                         <em style={{ fontSize: '20px' }}>{item.specialization}</em>
                         <span></span><em className="date">{item.MonthOfJoining} {item.YearOfJoining}</em></p>
-                      <p>
+                      <p className="info">
                         <em style={{ fontSize: '16px' }}>{item.Role}</em>
                       </p>
                     </div>

@@ -10,7 +10,7 @@
    b. Header Styles
    c. About Section
    d. Resume Section
-   d. Project Section
+   e. Project Section
    f. Contact Section
    g. Footer
 
@@ -98,7 +98,7 @@ header .social li a:hover { color: #11ABB0; }
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 80px;
+   bottom: 150px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
@@ -185,6 +185,7 @@ ul#nav li.current a { color:white; }
 /* ------------------------------------------------------------------ */
 
 #about {
+   background: #161415 url(../images/about-bg.jpg) no-repeat center/cover;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -211,6 +212,7 @@ ul#nav li.current a { color:white; }
 /* ------------------------------------------------------------------ */
 
 #resume {
+   background: #161415 url(../images/resume-bg.jpg) no-repeat center/cover;
    padding-top: 90px;
    overflow: hidden;
 }
@@ -368,6 +370,9 @@ ul#nav li.current a { color:white; }
 /* e. Project Section
 /* ------------------------------------------------------------------ */
 
+#projects .projects-div{
+   background: #161415 url(../images/resume-bg.jpg) no-repeat center/cover;
+}
 #projects .projects-grid .mdl-card__actions{
    margin-left: 20px;
 }
@@ -381,6 +386,7 @@ ul#nav li.current a { color:white; }
 /* ------------------------------------------------------------------ */
 
 #contact {
+   background: #161415 url(../images/about-bg.jpg) no-repeat center/cover;
    padding-top: 20px;
    padding-bottom: 20px;
 }

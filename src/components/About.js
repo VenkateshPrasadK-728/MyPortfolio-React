@@ -3,7 +3,7 @@ class About extends Component {
    render() {
       let Data = this.props.Data;
       return (
-         <section id="about" style={{opacity:'1.4', background: 'url(../images/about-bg.jpg) no-repeat center / cover' }}>
+         <section id="about">
             <div className="row">
                <div className="three columns">
                   <img className="profile" src="images/profilepic.png" alt="" style={{position:'absolute',marginLeft:'-100px',marginTop:'30px'}}/>

@@ -70,7 +70,7 @@ class Projects extends Component {
           <Tab style={{color: 'white'}}>Professional</Tab>
           <Tab style={{color: 'white'}}>Personal</Tab>
         </Tabs>
-        <Grid style={{ color: '#fff',opacity:'1.4', background: 'url(../images/about-bg.jpg) no-repeat center / cover' }}>
+        <Grid>
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
