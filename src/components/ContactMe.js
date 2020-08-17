@@ -16,9 +16,9 @@ class ContactMe extends Component {
               alt="avatar"
               style={{height: '250px',width:'200px',marginLeft:'250px'}}
                /><br /><br />
-             <em style={{marginLeft: '175px'}}> Wohoo ! You have just landed here to know about me :) </em><br />
-             <em style={{marginLeft: '100px'}}> “I’ve just learned a new way of introducing myself and I’m experimenting with it,</em><br />
-             <em style={{marginLeft: '245px'}}> Can I try it on you? Ping me On !” </em>
+             <em style={{color:'white',marginLeft: '175px'}}> Wohoo ! You have just landed here to know about me :) </em><br />
+             <em style={{color:'white',marginLeft: '100px'}}> “I’ve just learned a new way of introducing myself and I’m experimenting with it,</em><br />
+             <em style={{color:'white',marginLeft: '245px'}}> Can I try it on you? Ping me On !” </em>
           </Cell>
           <Cell col={6}>
             <h2 style={{ color: 'white',marginLeft:'200px'}}>Contact Me</h2>

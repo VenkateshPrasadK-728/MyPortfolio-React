@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import profilepic from '../profilepic.png'
 class About extends Component {
    render() {
       let Data = this.props.Data;
@@ -6,7 +7,7 @@ class About extends Component {
          <section id="about">
             <div className="row">
                <div className="three columns">
-                  <img className="profile" src="images/profilepic.png" alt="" style={{position:'absolute',marginLeft:'-100px',marginTop:'30px'}}/>
+                  <img className="profile" src={profilepic} alt="" style={{position:'absolute',marginLeft:'-100px',marginTop:'30px'}}/>
                </div>
                <div className="nine columns main-col">
                   <h3 >About Me</h3>

@@ -98,7 +98,7 @@ header .social li a:hover { color: #11ABB0; }
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 150px;
+   bottom: 160px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
@@ -192,17 +192,10 @@ ul#nav li.current a { color:white; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
 #about h3 {
    font-style: 'opensans-bold';
    color: #11ABB0;
    margin-bottom: 12px;
-}
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .main-col { padding-right: 5%; }
