@@ -44,10 +44,17 @@ let Data = {
     ],
     "work":[
       {
-        "CompanyName":"IVTL INFOVIEW TECHNOLOGIES",
+        "CompanyName":"MARKET SIMPLIFIED PVT LTD",
+        "specialization":"Software Engineer Level 1",
+        "MonthOfJoining":"(Oct",
+        "YearOfJoining":"2020 - Present)",
+        "Role":"Software Engineer, whose role is to understand and develop the applications involving high scale of API handling and DB query optimization."
+      },
+      {
+        "CompanyName":"IVTL INFOVIEW TECHNOLOGIES PVT LTD",
         "specialization":"Trainee Engineer",
         "MonthOfJoining":"(June",
-        "YearOfJoining":"2018 - Present)",
+        "YearOfJoining":"2018 - Aug 2020)",
         "Role":"Software Developer engages in understanding, designing, developing and testing a software product built for a client from the ground up. Developing technical and domain knowledge about ERP Product by using latest technologies and algorithms. Improving the quality and speed of deliverability by executing the test scripts on IE, Firefox & Google chrome."
       },
     ],
